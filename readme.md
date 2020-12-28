@@ -4,6 +4,12 @@
 # --------------------------- GLOBAL INFO----------------------
 *PING for test Api (Without dataBase communication) : 
 >/api1/articles/test
+* ENVIRONMENT VARIABLES :
+
+API_PORT = {number}           ( API port connexion, Default 3000 )
+MONGO_PORT = {number}         ( DB port connexion)
+MONGO_DB = {string}           ( DB name )
+MONGO_HOSTNAME = {string}     ( DB address connexion)
 
 * RESPONSE SUCCESS FORMAT  :
 ```javascript
@@ -243,7 +249,7 @@
 
 ```
 
-# # ------------------------- ADMIN --------------------------
+# ------------------------- ADMIN --------------------------
 La différence des GETs Admin est qu'ils recupèrent + d'informations que les GETs User.
 ## ADMIN ACCOUNT  
 * mail : admin@gmail.com
