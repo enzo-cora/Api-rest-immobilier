@@ -2,7 +2,7 @@
 
 
 # --------------------------- GLOBAL INFO----------------------
-*PING for test Api (Without dataBase communication) : 
+*PING for test Api (without dataBase communication) : 
 >/api1/articles/test
 * ENVIRONMENT VARIABLES :
 
